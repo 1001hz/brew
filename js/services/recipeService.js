@@ -68,10 +68,11 @@ app.service('recipeListSrv', function ($http) {
             ],
             hops: [
                 {
+                    id:1,
                     name: "Warrior",
                     weight: 12,
-                    alpha: 5.4,
-                    time: 60,
+                    alpha: 8.6,
+                    boilTime: 60,
                     method: "boil"
                 }
             ]

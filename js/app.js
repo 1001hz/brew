@@ -28,6 +28,14 @@ app.config(['$routeProvider',
                     templateUrl: 'views/hops.html',
                     controller: 'hopsCtrl'
                 }).
+                when('/yeast', {
+                    templateUrl: 'views/yeast.html',
+                    controller: 'yeastCtrl'
+                }).
+                when('/primer', {
+                    templateUrl: 'views/primer.html',
+                    controller: 'primerCtrl'
+                }).
                 otherwise({
                     redirectTo: '/home'
                 });

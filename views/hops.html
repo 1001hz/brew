@@ -23,7 +23,14 @@
                     <tr ng-repeat="hop in hopBill" class="animate-repeat">
                         <td ng-click="removeHop(hop)"><i class="fa fa-minus-circle fa-fw"></i></td>
                         <td>{{hop.name}}</td>
-                        <td>{{hop.alpha}}%</td>
+                        <td>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input class="form-control" type="text" ng-model="hop.alpha" />
+                                    <span class="input-group-addon">%</span>
+                                </div>
+                            </div>
+                        </td>
                         <td>
                             <div class="form-group">
                                 <div class="input-group">
