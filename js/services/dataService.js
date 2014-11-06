@@ -41,6 +41,12 @@ app.service('dataSrv', function ($http, accountSrv) {
                 name: "East Kent Goldings",
                 alpha: 13.5,
                 usage: ["bittering","aroma"]
+            },
+            {
+                id: 3,
+                name: "Cascade",
+                alpha: 4.5,
+                usage: ["aroma"]
             }
         ];
         callbackFunc(data);
